@@ -1,0 +1,93 @@
+:root {
+  --primary-white-color: #ffffff;
+  --tittle-text-color: #212121;
+  --text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+h2,
+h3 {
+  color: var(--tittle-text-color);
+}
+
+p {
+  color: var(--text-color);
+}
+
+/* Header */
+
+.logo {
+  color: var(--tittle-text-color);
+}
+
+.logo span {
+  color: var(--accent-color);
+}
+/* Site naw */
+
+.site_nav .link {
+  color: var(--tittle-text-color);
+}
+
+.site_nav .link:hover,
+.site_nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site_nav .link.current {
+  color: var(--accent-color);
+}
+
+.contact .mail,
+.phone {
+  color: var(--text-color);
+}
+
+.contact .mail:hover,
+.contact .phone:hover {
+  color: var(--accent-color);
+}
+
+/* Section hero */
+
+.section_hero {
+  background-color: #2f303a;
+  color: var(--primary-white-color);
+}
+
+.hero_button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Преимущества */
+
+/* Чем мы занимаемся?  */
+
+/* Наша команда */
+
+.team_item {
+  background-color: #f5f4fa;
+}
+
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo {
+  color: #ffffff;
+}
+
+.footer .logo span {
+  color: var(--accent-color);
+}
+
+.location {
+  color: #ffffff;
+}
+
+.mail,
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+}
