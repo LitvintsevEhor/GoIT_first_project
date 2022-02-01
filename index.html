@@ -22,130 +22,266 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./style.css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
-      <a class="logo" href="./index.html"><span>Web</span>Studio</a>
-      <nav>
-        <ul class="list site_nav">
-          <li><a class="link current" href="#">Студия</a></li>
-          <li><a class="link" href="index2.html">Портфолио</a></li>
-          <li><a class="link" href="#contacts">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul class="list contact">
-        <li class="contact_item">
-          <a class="link mail_contact" href="mailto:info@example.com"
-            >info@example.com</a
-          >
-        </li>
-        <li class="contact_item">
-          <a class="link phone_contact" href="tel:+380991111111"
-            >+380991111111</a
-          >
-        </li>
-      </ul>
-    </header>
-    <main>
-      <div>
-        <section class="section_hero">
-          <h1 class="hero_tittle">Эффективные решения для вашего бизнеса</h1>
-          <a class="hero_button" href="#">Заказать услугу</a>
-        </section>
-      </div>
-      <section>
-        <h2 class="visually_hidden">Наши преимущества</h2>
-        <ul class="list benefits">
-          <li>
-            <h3 class="subtittle">Внимание к деталям</h3>
-            <p class="text">
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="subtittle">Пунктуальность</h3>
-            <p class="text">
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="subtittle">Планирование</h3>
-            <p class="text">
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="subtittle">Современные технологии</h3>
-            <p class="text">
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <section class="we_do">
-        <h2 class="tittle">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li><img src="./Images/img.jpg" alt="Test" width="370" /></li>
-          <li>
-            <img src="./Images/img-2.jpg" alt="Test" width="370" />
-          </li>
-          <li>
-            <img src="./Images/img-3.jpg" alt="Test" width="370" />
-          </li>
-        </ul>
-      </section>
-      <section class="team">
-        <h2 class="tittle">Наша команда</h2>
-        <ul class="list">
-          <li class="team_item">
-            <img src="./Images/man1.jpg" alt="Product Designer" width="270" />
-            <h3 class="team_item_name">Игорь Демьяненко</h3>
-            <p class="team_item_position">Product Designer</p>
-          </li>
-          <li class="team_item">
-            <img src="./Images/man2.jpg" alt="Frontend Developer" width="270" />
-            <h3 class="team_item_name">Ольга Репина</h3>
-            <p class="team_item_position">Frontend Developer</p>
-          </li>
-          <li class="team_item">
-            <img src="./Images/man3.jpg" alt="Marketing" width="270" />
-            <h3 class="team_item_name">Николай Тарасов</h3>
-            <p class="team_item_position">Marketing</p>
-          </li>
-          <li class="team_item">
-            <img src="./Images/man4.jpg" alt="UI Designer" width="270" />
-            <h3 class="team_item_name">Михаил Ермаков</h3>
-            <p class="team_item_position">UI Designer</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer class="footer">
-      <h2 class="logo"><span>Web</span>Studio</h2>
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a
-              class="link location"
-              href="https://goo.gl/maps/kmQoGQpnVkosHGm16"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a class="link mail" href="mailto:info@example.com"
+      <div class="container page_header">
+        <a class="logo" href="./index.html"><span>Web</span>Studio</a>
+        <nav class="main_nav">
+          <ul class="list site_nav">
+            <li class="item"><a class="link current" href="#">Студия</a></li>
+            <li class="item">
+              <a class="link" href="index2.html">Портфолио</a>
+            </li>
+            <li class="item"><a class="link" href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="list contact">
+          <li class="contact_item">
+            <a class="link mail_contact" href="mailto:info@example.com"
               >info@example.com</a
             >
           </li>
-          <li>
-            <a class="link tel" href="tel:+380991111111">+380991111111</a>
+          <li class="contact_item">
+            <a class="link phone_contact" href="tel:+380991111111"
+              >+380991111111</a
+            >
           </li>
         </ul>
-      </address>
+      </div>
+    </header>
+    <main>
+      <!--Герой-->
+
+      <section class="section_hero">
+        <div class="container">
+          <h1 class="hero_tittle">
+            Эффективные решения <br />для вашего бизнеса
+          </h1>
+          <a class="hero_button" href="#">Заказать услугу</a>
+        </div>
+      </section>
+
+      <!--Преимущества-->
+
+      <section class="section">
+        <div class="container">
+          <h2 class="visually_hidden">Наши преимущества</h2>
+          <ul class="list features_list">
+            <li class="features_item antenna_icon">
+              <h3 class="subtittle">Внимание к деталям</h3>
+              <p class="text">
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li class="features_item clock_icon">
+              <h3 class="subtittle">Пунктуальность</h3>
+              <p class="text">
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li class="features_item diagram_icon">
+              <h3 class="subtittle">Планирование</h3>
+              <p class="text">
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li class="features_item astronaut_icon">
+              <h3 class="subtittle">Современные технологии</h3>
+              <p class="text">
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Примеры работ-->
+
+      <section class="section section_examples">
+        <div class="container">
+          <h2 class="tittle">Чем мы занимаемся</h2>
+          <ul class="list example_list">
+            <li class="example_item">
+              <img src="./Images/img.jpg" alt="Test" width="370" />
+            </li>
+            <li class="example_item">
+              <img src="./Images/img-2.jpg" alt="Test" width="370" />
+            </li>
+            <li class="example_item">
+              <img src="./Images/img-3.jpg" alt="Test" width="370" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Наша команда-->
+
+      <section class="section section_team">
+        <div class="container">
+          <h2 class="tittle">Наша команда</h2>
+          <ul class="list team_list">
+            <li class="team_item">
+              <img src="./Images/man1.jpg" alt="Product Designer" width="270" />
+              <h3 class="team_item_name">Игорь Демьяненко</h3>
+              <p class="team_item_position">Product Designer</p>
+              <ul class="social_icons">
+                <li class="social_icons_item">
+                  <a href="#" class="social_icons_link">
+                    <svg class="icon-facebook" width="20" height="20">
+                      <use href="./Images/Icons/sprite.svg#icon-mail"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="team_item">
+              <img
+                src="./Images/man2.jpg"
+                alt="Frontend Developer"
+                width="270"
+              />
+              <h3 class="team_item_name">Ольга Репина</h3>
+              <p class="team_item_position">Frontend Developer</p>
+              <ul class="list social_list">
+                <li class="social_icon">
+                  <img src="./Images/Icons/instagram 2.svg" alt="instagram" />
+                </li>
+                <li class="social_icon">
+                  <img src="./Images/Icons/twitter.svg" alt="twitter" />
+                </li>
+                <li class="social_icon">
+                  <img src="./Images/Icons/facebook.svg" alt="facebook" />
+                </li>
+                <li class="social_icon">
+                  <img src="./Images/Icons/linkedin 1.svg" alt="linkedin" />
+                </li>
+              </ul>
+            </li>
+            <li class="team_item">
+              <img src="./Images/man3.jpg" alt="Marketing" width="270" />
+              <h3 class="team_item_name">Николай Тарасов</h3>
+              <p class="team_item_position">Marketing</p>
+              <ul class="list social_list">
+                <li class="social_icon">
+                  <img src="./Images/Icons/instagram 2.svg" alt="instagram" />
+                </li>
+                <li class="social_icon">
+                  <img src="./Images/Icons/twitter.svg" alt="twitter" />
+                </li>
+                <li class="social_icon">
+                  <img src="./Images/Icons/facebook.svg" alt="facebook" />
+                </li>
+                <li class="social_icon">
+                  <img src="./Images/Icons/linkedin 1.svg" alt="linkedin" />
+                </li>
+              </ul>
+            </li>
+            <li class="team_item">
+              <img src="./Images/man4.jpg" alt="UI Designer" width="270" />
+              <h3 class="team_item_name">Михаил Ермаков</h3>
+              <p class="team_item_position">UI Designer</p>
+              <ul class="list social_list">
+                <li class="social_icon">
+                  <img src="./Images/Icons/instagram 2.svg" alt="instagram" />
+                </li>
+                <li class="social_icon">
+                  <img src="./Images/Icons/twitter.svg" alt="twitter" />
+                </li>
+                <li class="social_icon">
+                  <img src="./Images/Icons/facebook.svg" alt="facebook" />
+                </li>
+                <li class="social_icon">
+                  <img src="./Images/Icons/linkedin 1.svg" alt="linkedin" />
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Клиенты-->
+
+      <section class="section section_clients">
+        <div class="container">
+          <h2 class="tittle">Постоянные клиенты</h2>
+          <ul class="list clients_list">
+            <a class="link_clients" href="#"
+              ><li class="client_img">
+                <img src="./Images/Icons/Logo.svg" alt="Имя иконки" /></li
+            ></a>
+            <a class="link_clients" href="#"
+              ><li class="client_img">
+                <img src="./Images/Icons/Logo-2.svg" alt="Имя иконки" /></li
+            ></a>
+            <a class="link_clients" href="#"
+              ><li class="client_img">
+                <img src="./Images/Icons/Logo-3.svg" alt="Имя иконки" /></li
+            ></a>
+            <a class="link_clients" href="#"
+              ><li class="client_img">
+                <img src="./Images/Icons/Logo-4.svg" alt="Имя иконки" /></li
+            ></a>
+            <a class="link_clients" href="#"
+              ><li class="client_img">
+                <img src="./Images/Icons/Logo-5.svg" alt="Имя иконки" /></li
+            ></a>
+            <a class="link_clients" href="#"
+              ><li class="client_img">
+                <img src="./Images/Icons/Logo-6.svg" alt="Имя иконки" /></li
+            ></a>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <!--Футер-->
+
+    <footer class="footer">
+      <div class="container footer_container">
+        <div class="address_item">
+          <h2 class="logo"><span>Web</span>Studio</h2>
+          <address class="address">
+            <ul class="list">
+              <li>
+                <a
+                  class="link location"
+                  href="https://goo.gl/maps/kmQoGQpnVkosHGm16"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li>
+                <a class="link mail" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="link tel" href="tel:+380991111111">+380991111111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="community_item">
+          <h2 class="community_tittle">Присоединяйтесь</h2>
+          <ul class="list community_list">
+            <li class="link community_link community_inst"><a href="#"></a></li>
+            <li class="link community_link community_twitter">
+              <a href="#"></a>
+            </li>
+            <li class="link community_link community_facebook">
+              <a href="#"></a>
+            </li>
+            <li class="link community_link community_linkedin">
+              <a href="#"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
